@@ -1,0 +1,27 @@
+
+body {
+  margin-top: 50px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+}
+.navbar {
+  padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 20px;
+padding-left: 20px;
+}
+p {
+text-align: justify;
+}
+.maintext {
+  padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 100px;
+padding-left: 100px;
+
+}
+img {
+          float: right;
+          margin: 15px;
+      }

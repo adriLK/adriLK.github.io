@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Voice Command</title>
+
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <div style="display:none;">
+    <img id="dog" src="images/dog.png">
+    <img id="cat" src="images/cat.png">
+    <img id="fox" src="images/fox.png">
+    <img id="frog" src="images/frog.png">
+    <img id="lizard" src="images/lizard.png">
+  </div>
+
+
+  <div id="scene" style = "text-align: center;">
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+    <p>
+      <button onclick="toggleSpeak()" id="button">Speak</button>
+    </p>
+  </div>
+
+
+
+  <ul>
+    <li>Say the name of a listed animal to have it appear on the screen.</li>
+    <li>Say "Help" for help, or "About" for more info.</li>
+  </ul>
+</body>
+
+</html>
